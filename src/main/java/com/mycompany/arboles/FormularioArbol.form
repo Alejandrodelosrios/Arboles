@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="txtElemento" min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtElemento1" min="-2" pref="112" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="tbInsertar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="TBeliminar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TBarbolMvias" min="-2" max="-2" attributes="0"/>
+                          <Component id="TBestaBalanaceadoApartirDeUnNivel" min="-2" max="-2" attributes="0"/>
+                          <Component id="TBeliminarIterativo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tbRecorridoPorNivel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="tbRecorridoEnPreOrden" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tbSize" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="TBejercicio1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tbRecorridoEnInOrden" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tbRecorridoEnPostOrden" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tbNivel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tbAltura" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tbBuscar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tbContiene" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="TBimprimir" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TBcontadorDeNodosDe2Hijos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="TBcantidadDeHijosVacios" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TBestanBalanceado" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtElemento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbInsertar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtElemento1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TBeliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="126" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="TBarbolMvias" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="TBestaBalanaceadoApartirDeUnNivel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="TBeliminarIterativo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tbRecorridoPorNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbRecorridoEnPreOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TBejercicio1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tbRecorridoEnInOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbRecorridoEnPostOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tbAltura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbContiene" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TBimprimir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TBcontadorDeNodosDe2Hijos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TBcantidadDeHijosVacios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TBestanBalanceado" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="textArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="txtElemento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="claves"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbInsertar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="insertar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbInsertarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbRecorridoPorNivel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="recorridoPorNivel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbRecorridoPorNivelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtElemento1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="valor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbRecorridoEnPreOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="recorridoEnPreOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbRecorridoEnPreOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbRecorridoEnInOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="recorridoEnInOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbRecorridoEnInOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbRecorridoEnPostOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="recorridoEnPostOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbRecorridoEnPostOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbSize">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="size"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbSizeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbNivel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nivel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbNivelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbAltura">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="altura"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbAlturaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbBuscarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tbContiene">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="contiene"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbContieneActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBimprimir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="imprimir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBimprimirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBcontadorDeNodosDe2Hijos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="contar si tienen 2 hijos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBcontadorDeNodosDe2HijosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBcantidadDeHijosVacios">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="cantidad de hijos vacios"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBcantidadDeHijosVaciosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBeliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="eliminar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBeliminarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBestanBalanceado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="estaBalanceado"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBestanBalanceadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBarbolMvias">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Arbol MVias"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBarbolMviasActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBestaBalanaceadoApartirDeUnNivel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="estaBalanceadoDesdeUnNivel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBestaBalanaceadoApartirDeUnNivelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBeliminarIterativo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="eliminarIterativo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBeliminarIterativoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TBejercicio1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ejercicio1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TBejercicio1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
